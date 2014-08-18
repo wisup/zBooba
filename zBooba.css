@@ -1,1 +1,31 @@
+.zBooba
+{
+	border: 1px solid silver;
+	padding: 5px;
+	width: 500px;
+	min-height: 200px;
+	
+	font-family: monospace;
+	letter-spacing: 0px;
+	
+	position: relative;
+	
+	white-space: pre-wrap;
+}
 
+.zBooba p
+{
+	padding: 0;
+	margin: 0;
+}
+
+.cursor
+{
+	border-left: 1px solid black;
+	
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	
+	
+}
