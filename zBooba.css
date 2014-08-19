@@ -13,7 +13,7 @@
 	white-space: pre-wrap;
 }
 
-.zBooba p
+.zBooba p, h1, h2
 {
 	padding: 0;
 	margin: 0;
