@@ -51,10 +51,10 @@ var zBooba = function(id){
 	
 	//CURSOR-----
 	this.blink = function(idBlock){
-		elm = document.getElementById(idBlock);
+		/*elm = document.getElementById(idBlock);
 		elm.style.visibility = "visible";
 		setTimeout(function() {setInterval(function () {elm.style.visibility="visible";},1000);},500);
-		setInterval(function () {elm.style.visibility="hidden";},1000);
+		setInterval(function () {elm.style.visibility="hidden";},1000); */
 	}
 	
 	this.startBlink = function(){
