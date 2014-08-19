@@ -171,7 +171,7 @@ var zBooba = function(id){
 	}
 	
 	this.click = function(event){
-		alert(event.target.nodeName);
+		alert(event.offsetY);
 		//Check if mouse is over the textarea
 		if(this.isMouseOver == 1)
 		{
@@ -242,8 +242,16 @@ var zBooba = function(id){
 	
 	
 	//TOOOOL----------------------
-	this.listElement = function(){}
-	
+	this.listElement = function(){
+		//alert(this.textarea.children[0].nodeName);
+		var listElements = this.textarea.children;
+		var nbrElements = listElements.length;
+		for(var i = 0; i < nbrElements ; i++)
+		{
+			alert(listElements[i].nodeName);
+		}
+	}
+		
 	
 	this.replaceTextArea();
 	initEventListener(this);

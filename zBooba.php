@@ -6,11 +6,13 @@
 		<script type='text/javascript'>
 			function loadZBooba(){
 				var textarea = new zBooba("textarea");
+				document.getElementById("testbutton").onclick = function() { textarea.listElement(); };
 			}
 		</script>
 	</head>
 	
 	<body onload='loadZBooba();'>
 		<textarea id='textarea'><h1>Header</h1><h2>Header</h2><p>This is a test.</p></textarea>
+		<button id="testbutton">Test</button>
 	</body>
 </html>
